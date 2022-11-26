@@ -850,7 +850,7 @@ void init_prefabs(flecs::world& ecs) {
     ecs.prefab<prefabs::Tree>();
         ecs.prefab<prefabs::Tree::Trunk>()
             .set<Position>({0, -0.75, 0})
-            .set<Color>({0.25, 0.2, 0.1})
+            .set<Color>({0.5, 0.2, 0.1})
             .set<Box>({0.5, 1.5, 0.5});
         ecs.prefab<prefabs::Tree::Canopy>()
             .set<Position>({0, -2.0, 0})
