@@ -55,7 +55,7 @@ static const float BoltSize = 0.2;
 static const float BoltSizeDecay = 0.001;
 static const float BoltLifespan = 1.0;
 
-static const float SmokeSize = 5.0;
+static const float SmokeSize = 1.5;
 static const float ExplodeRadius = 1.0;
 static const float SmokeSizeDecay = 0.4;
 static const float SmokeColorDecay = 0.0001;
