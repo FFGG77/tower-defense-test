@@ -19,7 +19,7 @@ using Box = geometry::Box;
 #define ECS_PI_2 ((float)(GLM_PI * 2))
 
 // Game constants
-static const float EnemySize = 0.1;
+static const float EnemySize = 0.7;
 static const float EnemySpeed = 4.0;
 static const float EnemySpawnInterval = 0.2;
 
@@ -850,7 +850,7 @@ void init_prefabs(flecs::world& ecs) {
     ecs.prefab<prefabs::Tree>();
         ecs.prefab<prefabs::Tree::Trunk>()
             .set<Position>({0, -0.75, 0})
-            .set<Color>({0.5, 0.2, 0.1})
+            .set<Color>({0.25, 0.2, 0.1})
             .set<Box>({0.5, 1.5, 0.5});
         ecs.prefab<prefabs::Tree::Canopy>()
             .set<Position>({0, -2.0, 0})
