@@ -19,7 +19,7 @@ using Box = geometry::Box;
 #define ECS_PI_2 ((float)(GLM_PI * 2))
 
 // Game constants
-static const float EnemySize = 0.1;
+static const float EnemySize = 1.0;
 static const float EnemySpeed = 4.0;
 static const float EnemySpawnInterval = 0.2;
 
