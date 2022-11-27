@@ -1047,7 +1047,7 @@ void init_systems(flecs::world& ecs) {
     // Spawn enemies periodically
     ecs.system<const Game>("SpawnEnemy")
         .term_at(1).singleton()
-        .interval(EnemySpawnInterval)
+        .interval(1.0)
         .iter(SpawnEnemy);
 
     // Move enemies
