@@ -21,7 +21,7 @@ using Box = geometry::Box;
 // Game constants
 static const float EnemySize = 0.7;
 static const float EnemySpeed = 4.0;
-static const float EnemySpawnInterval = 0.2;
+static const float EnemySpawnInterval = 1.0;
 
 static const float RecoilAmount = 0.3;
 static const float DecreaseRecoilRate = 1.5;
