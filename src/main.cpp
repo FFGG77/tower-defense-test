@@ -19,8 +19,8 @@ using Box = geometry::Box;
 #define ECS_PI_2 ((float)(GLM_PI * 2))
 
 // Game constants
-static const float EnemySize = 0.5;
-static const float EnemySpeed = 5.0;
+static const float EnemySize = 0.1;
+static const float EnemySpeed = 1.0;
 static const float EnemySpawnInterval = 5.0;
 
 static const float RecoilAmount = 0.3;
@@ -1047,7 +1047,7 @@ void init_systems(flecs::world& ecs) {
     // Spawn enemies periodically
     ecs.system<const Game>("SpawnEnemy")
         .term_at(1).singleton()
-        .interval(1.0)
+        .interval(5.0)
         .iter(SpawnEnemy);
 
     // Move enemies
