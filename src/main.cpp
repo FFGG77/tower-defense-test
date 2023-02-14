@@ -20,7 +20,7 @@ using Box = geometry::Box;
 
 // Game constants
 static const float EnemySize = 0.1;
-static const float EnemySpeed = 1.0;
+static const float EnemySpeed = 5.0;
 static const float EnemySpawnInterval = 5.0;
 
 static const float RecoilAmount = 0.3;
@@ -30,7 +30,7 @@ static const float HitCooldownInitialValue = 0.25;
 
 static const float TurretRotateSpeed = 4.0;
 static const float TurretFireInterval = 0.12;
-static const float TurretRange = 5.0;
+static const float TurretRange = 0.1;
 static const float TurretCannonOffset = 0.2;
 static const float TurretCannonLength = 0.6;
 
