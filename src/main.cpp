@@ -30,14 +30,14 @@ static const float HitCooldownInitialValue = 0.25;
 
 static const float TurretRotateSpeed = 4.0;
 static const float TurretFireInterval = 0.12;
-static const float TurretRange = 0.1;
+static const float TurretRange = 50.0;
 static const float TurretCannonOffset = 0.2;
 static const float TurretCannonLength = 0.6;
 
 static const float BulletSize = 0.5;
 static const float BulletSpeed = 24.0;
 static const float BulletLifespan = 0.5;
-static const float BulletDamage = 0.1;
+static const float BulletDamage = 0.01;
 
 static const float IonSize = 0.05;
 static const float IonLifespan = 1.0;
